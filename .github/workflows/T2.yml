@@ -2,7 +2,7 @@ name : Task22
 on : push
 jobs : 
   My-job:
-   runs oon: ubuntu.least
+   runs-on: ubuntu-latest
    steps:
       - name: step1
-         run: echo "Hello world"
+        run: echo "Hello world"
