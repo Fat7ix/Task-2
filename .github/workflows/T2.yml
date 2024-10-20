@@ -1,0 +1,8 @@
+name : Task22
+on : push
+jobs : 
+  My-job:
+   runs oon: ubuntu.least
+   steps:
+      - name: step1
+         run: echo "Hello world"
